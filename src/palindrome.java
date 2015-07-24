@@ -23,8 +23,10 @@ public class palindrome {
                 String[] words = cleanString.split(" ");
                 numOfWords = words.length;
                 findPalindromes(words);
-                System.out.println(finalString);
-                System.out.println(numOfPalin + " " + numOfWords + " " + isPassagePalin);
+                System.out.println("Total number of words in the passage is: " + numOfWords);
+                System.out.println("Total number of palindrome words in passage is: " + numOfPalin);
+                System.out.println("Is the entire passage a palindrome?:" + isPassagePalin);
+
             }
         } catch (Exception e) {
             e.printStackTrace();
