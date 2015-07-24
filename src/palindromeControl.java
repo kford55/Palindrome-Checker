@@ -3,7 +3,7 @@
  */
 public class palindromeControl {
     public static void main(String []args) {
-        palindrome pal = new palindrome("/Users/kennethford/Documents/palindrome/test.txt");
+        palindrome pal = new palindrome([path]);
     }
 }
 
